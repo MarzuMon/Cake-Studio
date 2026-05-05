@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg rounded-top-3 sticky-top"
+      style="background-color: #0f050d"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand ps-5 text-light" href="#">𝑪𝒂𝒌𝒆 𝑺𝒕𝒖𝒅𝒊𝒐</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center pe-5 me-5"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#cart">Cart</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#cake">Cakes</a></li>
+                <li><a class="dropdown-item" href="#cupcake">Cup Cakes</a></li>
+                <li><a class="dropdown-item" href="#cookies">Cookies</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="hero-section position-relative">
+      <img
+        class="img-fluid w-100 hero-img"
+        src="/Cake Studio/img/carousel5.webp"
+        alt=""
+      />
+
+      <div class="hero-content text-center text-white">
+        <h1 class="fw-bold">Delicious Cakes</h1>
+        <p>Freshly baked happiness for every occasion</p>
+        <a href="#" class="btn btn-warning px-4">Shop Now</a>
+      </div>
+    </section>
+    <section class="py-5 bg-img">
+      <div class="container">
+        <h1 class="text-center mb-4 text-warning">Our Cakes</h1>
+        <div class="row g-4 justify-content-center">
+          <div id="cake" class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 cake-card">
+              <img
+                src="/Cake Studio/img/cake1.webp"
+                class="card-img-top"
+                alt="Midnight Delight"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">Midnight Delight</h3>
+                <p class="text-muted">
+                  A delightful fusion of berries and creamy chocolate, crafted
+                  for a satisfying taste in every bite
+                </p>
+                <h4 class="fw-bold">₹1500</h4>
+                <a href="#" class="btn btn-dark w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 cake-card">
+              <img
+                loading="lazy"
+                src="/Cake Studio/img/cake2.webp"
+                class="card-img-top"
+                alt="Bavarian Torte"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">Bavarian Torte</h3>
+                <p class="text-muted">
+                  Layers of chocolate sponge enveloped in silky custard cream,
+                  finished with a pure blend of taste
+                </p>
+                <h4 class="fw-bold">₹1200</h4>
+                <a href="#" class="btn btn-dark w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 cake-card">
+              <img
+                src="/Cake Studio/img/cake3.webp"
+                class="card-img-top"
+                alt="Classic Velvety"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">Classic Velvety</h3>
+                <p class="text-muted">
+                  Crimson velvet layered with rich, tangy cream frosting,
+                  crafted for a elegant dessert experience
+                </p>
+                <h4 class="fw-bold">₹1000</h4>
+                <a href="#" class="btn btn-dark w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="cupcake" class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 cake-card">
+              <img
+                src="/Cake Studio/img/cupcake1.webp"
+                class="card-img-top"
+                alt="Caramel Fudgy"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">Caramel Fudgy</h3>
+                <p class="text-muted">
+                  Fluffy vanilla cake topped with a swirl of smooth, caramel
+                  cream for a light and delightful treat
+                </p>
+                <h4 class="fw-bold">₹500</h4>
+                <a href="#" class="btn btn-dark w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 cake-card">
+              <img
+                src="/Cake Studio/img/cupcake2.webp"
+                class="card-img-top"
+                alt="Choco Truffle"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">Choco Truffle</h3>
+                <p class="text-muted">
+                  A rich chocolate cupcake with a molten center that flows with
+                  every bite, delivering an irresistible taste
+                </p>
+                <h4 class="fw-bold">₹450</h4>
+                <a href="#" class="btn btn-dark w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 cake-card">
+              <img
+                src="/Cake Studio/img/cupcake3.webp"
+                class="card-img-top"
+                alt="Velvet Bliss"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">Velvet Bliss</h3>
+                <p class="text-muted">
+                  A charming bite-sized delight with a luxurious texture and a
+                  perfectly whipped cream cheese finish
+                </p>
+                <h4 class="fw-bold">₹400</h4>
+                <a href="#" class="btn btn-dark w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div id="cookies" class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 cake-card">
+              <img
+                src="/Cake Studio/img/newcookie1.webp"
+                class="card-img-top"
+                alt="Oreo Cookies"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">Oreo Cookies</h3>
+                <p class="text-muted">
+                  The combination of sweet cream glaze and the deep cocoa notes
+                  from the Oreo crumbles
+                </p>
+                <h4 class="fw-bold">₹200</h4>
+                <a href="#" class="btn btn-dark w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 cake-card">
+              <img
+                src="/Cake Studio/img/newcookie2.webp"
+                class="card-img-top"
+                alt="ChocoLava Cookies"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">ChocoLava Cookies</h3>
+                <p class="text-muted">
+                  The combination of rich chocolate crumbles and creamy dark
+                  chocolate
+                </p>
+                <h4 class="fw-bold">₹200</h4>
+                <a href="#" class="btn btn-dark w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 cake-card">
+              <img
+                src="/Cake Studio/img/newcookie3.webp"
+                class="card-img-top"
+                alt="Red Velvet Cookies"
+              />
+              <div class="card-body text-center">
+                <h3 class="card-title">Red Velvet Cookies</h3>
+                <p class="text-muted">
+                  Indulging in the sweet sensation of red velvet in every cookie
+                  bite
+                </p>
+                <h4 class="fw-bold">₹200</h4>
+                <a href="#" class="btn btn-dark w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-img">
+      <div class="container">
+        <h1 class="text-center mb-5 text-warning">Special Desserts</h1>
+
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+          data-bs-interval="4000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center text-white">
+              <h3 class="fw-bold">Orange Zest Delight</h3>
+              <div class="d-flex justify-content-center mt-3">
+                <img
+                  src="/Cake Studio/img/Dessert1.webp"
+                  class="d-block w-50"
+                  alt="Orange Zest Delight"
+                />
+                <div class="carousel-content1">
+                  <a href="#" class="btn btn-warning px-4">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-center text-white">
+              <h3 class="fw-bold">Royal Berry Delight</h3>
+              <div class="d-flex justify-content-center mt-3">
+                <img
+                  src="/Cake Studio/img/Dessert2.webp"
+                  class="d-block w-50"
+                  alt="Royal Berry Delight"
+                />
+                <div class="carousel-content1">
+                  <a href="#" class="btn btn-warning px-4">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-center text-white">
+              <h3 class="fw-bold">Fresh Fruit Fantasy</h3>
+              <div class="d-flex justify-content-center mt-3">
+                <img
+                  src="/Cake Studio/img/Dessert3.webp"
+                  class="d-block w-50"
+                  alt="Fresh Fruit Fantasy"
+                />
+                <div class="carousel-content1">
+                  <a href="#" class="btn btn-warning px-4">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-center text-white">
+              <h3 class="fw-bold">Midnight Chocolate Royale</h3>
+              <div class="d-flex justify-content-center mt-3">
+                <img
+                  src="/Cake Studio/img/Dessert4.webp"
+                  class="d-block w-50"
+                  alt="Midnight Chocolate Royale"
+                />
+                <div class="carousel-content2">
+                  <a href="#" class="btn btn-warning px-4">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-center text-white">
+              <h3 class="fw-bold">Choco Layer Delight</h3>
+              <div class="d-flex justify-content-center mt-3">
+                <img
+                  src="/Cake Studio/img/Dessert5.webp"
+                  class="d-block w-50"
+                  alt="Choco Layer Delight"
+                />
+                <div class="carousel-content2">
+                  <a href="#" class="btn btn-warning px-4">Shop Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="hero-section position-relative py-5 bg-img bg-size">
+      <!-- <img class="img-fluid w-100 hero-img" src="/Cake Studio/img/01571234.jpg" alt=" "> -->
+
+      <div class="foot-top text-center text-warning fw-bold">
+        <h1 class="display-3 text-nowrap">
+          𝑴𝒂𝒅𝒆 𝒘𝒊𝒕𝒉 𝒍𝒐𝒗𝒆 <br />
+          𝒖𝒏𝒊𝒒𝒖𝒆 𝒔𝒘𝒆𝒆𝒕𝒔 𝒇𝒐𝒓 𝒈𝒐𝒖𝒓𝒎𝒆𝒕
+        </h1>
+      </div>
+    </section>
+
+    <footer id="about" class="footer-bg text-white py-5">
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-12 col-sm-6 col-md-6 text-light text-center">
+        <h4 class="fw-bold">About Us</h4>
+        <a href="#" class="d-block text-warning mt-4">Our Company</a>
+        <a href="#" class="d-block text-warning mt-2">About Cake Studio</a>
+        <a href="#" class="d-block text-warning mt-2">Customer Service</a>
+        <a href="#" class="d-block text-warning mt-2">Investor Relations</a>
+      </div>
+
+
+      <div class="col-12 col-sm-6 col-md-6 text-light text-center">
+        <h4 class="fw-bold">Contact</h4>
+        <a href="#" class="d-block text-warning mt-4">Website: www.cakestudio.com</a>
+        <a href="#" class="d-block text-warning mt-2">Email: cakestudio@email.com</a>
+        <a href="#" class="d-block text-warning mt-2">Phone: +91 9876543210</a>
+      </div>
+        
+        <div class="col-12 col-md-4 mt-3 text-center">
+  <h4 class="fw-bold text-nowrap">Follow Us</h4>
+
+  <div class="social-icons mt-5 justify-content-center">
+    <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+    <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+    <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+    <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

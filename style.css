@@ -1,0 +1,113 @@
+/* Navbar */
+.custom-nav {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+/* Hero-section */
+.hero-section {
+  position: relative;
+}
+
+.hero-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* main Background */
+.bg-img{
+    background-image:url(img/01571234.webp);
+
+}
+
+/* Card */
+.cake-card {
+  transition: 0.3s;
+}
+
+.cake-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Carousel */
+.carousel-content1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carousel-content2 {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.foot-top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.bg-size{
+    height:50vh;
+}
+.footer-bg {
+  background: url('/Cake Studio/img/footerchoco2-bg-2.webp');
+  position: relative;
+}
+
+
+.footer-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.footer-bg .container {
+  position: relative;
+  z-index: 1;
+}
+.footer-bg a {
+  text-decoration: none;
+}
+
+.footer-bg a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+/* Hover Effects */
+.social-icon:hover {
+  background: #ffc107;   /* gold */
+  color: black;
+  transform: translateY(-5px);
+  
+}
