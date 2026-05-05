@@ -62,7 +62,7 @@
     height:50vh;
 }
 .footer-bg {
-  background: url('img/footerchoco2-bg-2.webp');
+  background: url(img/footerchoco2-bg-2.webp);
   position: relative;
 }
 
